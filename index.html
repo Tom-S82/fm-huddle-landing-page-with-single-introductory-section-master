@@ -5,29 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="dist/css/main.css">
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <div class="container">
+    <div class="grid">
+      <header class="nav flex">
+        <img src="/images/iconmonstr-speech-bubble-4.svg" alt="Speech Bubble" class="nav-logo">
+        <h1 class="nav-head">Huddle</h1>
+      </header>
 
-  Build The Community Your Fans Will Love
+      <section class="hero">
+        <img src="/images/illustration-mockups.svg" alt="Illustration Mockups" class="hero-img">
+      </section>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <main class="flex details">
+        <h2 class="details-head">Build The Community Your Fans Will Love</h2>
+        <p class="details-text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion.</p> 
+        <a href="#">Register</a>
+      </main>
+      
+      <footer>
+        <div class="social"></div>
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">TES</a>.
+        </p>
+      </footer>
+    </div>
+  </div>
 </body>
 </html>

@@ -47,7 +47,7 @@ Feel free to use any workflow that you feel comfortable with. Below is a suggest
 
   - div grid (mobile r:c / desktop r:c)
 
-    - header (img & h1, left) (Grid 1:1 / 1:1-1:2)
+    - header (img & h1, left) (Grid 1:1 / 1:1-1:2) https://iconmonstr.com/speech-bubble-4-svg/
     - section (hero img, center) (Grid 2:1 / 2:1)
     - main (flexbox column) (Grid 3:1 / 2:2)
       - h2 (center)

@@ -1,0 +1,22 @@
+{
+  "name": "fm-huddle-landing-page-with-single-introductory-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-S82/fm-huddle-landing-page-with-single-introductory-section-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tom-S82/fm-huddle-landing-page-with-single-introductory-section-master/issues"
+  },
+  "homepage": "https://github.com/Tom-S82/fm-huddle-landing-page-with-single-introductory-section-master#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
